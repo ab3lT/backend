@@ -22,8 +22,6 @@ export class User{
     @Column({unique: true})
     email: string;
     
-    @Column()
-    phone_number: string;
 
     @Column()
     @Exclude()
