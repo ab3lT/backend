@@ -56,7 +56,6 @@ export class AuthController {
             first_name: body.first_name.toLowerCase(),
             last_name: body.last_name.toLowerCase(),
             email: body.email.toLowerCase(),
-            phone_number: body.phone_number,
             password: hasedPassword
           
          } )

@@ -30,12 +30,6 @@ export class RegisterDto{
     @IsEmail()
     email: string;
     
-    @ApiProperty({
-        type: String,
-        description: 'This is a required property',
-      })
-    
-    phone_number?: string;
 
     @ApiProperty({
         type: String,
@@ -48,7 +42,6 @@ export class RegisterDto{
         type: String,
         description: 'This is a required property',
       })
-      
     @IsNotEmpty()
     password_confirm: string;
 
